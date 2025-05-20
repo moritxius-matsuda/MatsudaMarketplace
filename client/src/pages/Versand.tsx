@@ -48,7 +48,7 @@ export default function Versand() {
   const paymentMethods = [
     {
       name: "SEPA-Überweisung",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/SEPA_logo.svg/1200px-SEPA_logo.svg.png",
+      logo: "https://einzelhandel.de/images/zahlungssysteme/lastschriftlogo-qf_rgb.png",
       description: "Sichere Banküberweisung für Kunden aus der SEPA-Zone"
     },
     {
@@ -58,17 +58,17 @@ export default function Versand() {
     },
     {
       name: "Klarna",
-      logo: "https://cdn.vox-cdn.com/thumbor/SiGCnewEpZ3-u2Gw6n4h0pbCCgM=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22755437/original_JPG.jpg",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Klarna_Payment_Badge.svg/2560px-Klarna_Payment_Badge.svg.png",
       description: "Kauf auf Rechnung oder in Raten"
     },
     {
       name: "Sofortüberweisung",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Sofort_logo.svg/1280px-Sofort_logo.svg.png",
+      logo: "https://getlogo.net/wp-content/uploads/2020/03/sofort-logo-vector.png",
       description: "Direkte Überweisung von Ihrem Bankkonto"
     },
     {
       name: "Amazon Pay",
-      logo: "https://logodownload.org/wp-content/uploads/2019/05/amazon-pay-logo-0.png",
+      logo: "https://smartstore.com/media/4435/content/Amazon_Pay_PNG_Logo_3000x800px.jpg",
       description: "Bezahlen mit Ihrem Amazon-Konto"
     },
     {
