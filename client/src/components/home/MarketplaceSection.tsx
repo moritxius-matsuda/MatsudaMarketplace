@@ -16,22 +16,22 @@ export default function MarketplaceSection() {
     {
       title: "Transceiver",
       description: "Hochwertige Geräte für alle Frequenzbereiche",
-      image: "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500&q=80"
+      image: "https://images.unsplash.com/photo-1582124074187-15cea8589bfa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       title: "Antennen",
       description: "Verschiedene Antennen für optimale Signalübertragung",
-      image: "https://images.unsplash.com/photo-1504941214544-9c1c44559ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500&q=80"
+      image: "https://images.unsplash.com/photo-1624948465027-6f9937674437?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       title: "Zubehör",
       description: "Wichtiges Zubehör für Ihre Funkausrüstung",
-      image: "https://images.unsplash.com/photo-1601132359864-c974e79890ac?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500&q=80"
+      image: "https://images.unsplash.com/photo-1603732551746-47218024aee2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500&q=80"
     },
     {
       title: "Spezialitäten",
       description: "Seltene und schwer zu findende Nischenprodukte",
-      image: "https://pixabay.com/get/g01d8ebdc9a25d85080bc7305193bec41b1f9184ea1e8847dbf5abb3ea034c57361ca256b9cc29c0542cfba5c6c44f5fb232b382e34790f3a118009864467ca12_1280.jpg"
+      image: "https://images.unsplash.com/photo-1629228735562-9de2e1975ae3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500&q=80"
     }
   ];
 
