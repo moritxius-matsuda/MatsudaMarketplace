@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
-  { href: "#about", label: "Über uns" },
+  { href: "/about", label: "Über uns" },
   { href: "#marketplace", label: "Marketplace" },
   { href: "#radio", label: "Radio" },
   { href: "#contact", label: "Kontakt", isButton: true }
@@ -42,7 +42,7 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between h-16">
           <div className="flex items-center">
-            <Link href="#" className="flex-shrink-0 flex items-center">
+            <Link href="/" className="flex-shrink-0 flex items-center">
               <div className="h-10 w-10 rounded-full bg-gradient-purple flex items-center justify-center shadow-lg">
                 <span className="text-xl font-bold">M</span>
               </div>
