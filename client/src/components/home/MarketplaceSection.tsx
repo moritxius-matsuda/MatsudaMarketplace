@@ -74,8 +74,8 @@ export default function MarketplaceSection() {
             <Reveal direction="right">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1520170350707-b2da59970118?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
-                  alt="Amateur radio equipment" 
+                  src="https://images.unsplash.com/photo-1621319332451-55b4b8ac9cf1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                  alt="Person packt neue Funkausrüstung aus" 
                   className="rounded-2xl shadow-2xl object-cover h-[500px] w-full"
                 />
                 
