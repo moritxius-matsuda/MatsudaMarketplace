@@ -20,7 +20,7 @@ export default function About() {
             <GlassCard className="p-8 mb-12">
               <div className="space-y-6">
                 <p className="text-lg">
-                  Ich bin Funkamateur mit dem Rufzeichen DF5LC und lebe in Trier, Deutschland.
+                  Ich bin Moritz Béla Meier, Funkamateur mit dem Rufzeichen DF5LC und lebe in Trier, Deutschland.
                 </p>
                 <p>
                   Seit meiner Kindheit beschäftige ich mich leidenschaftlich mit den Bereichen Netzwerk, Software und Funk. 
