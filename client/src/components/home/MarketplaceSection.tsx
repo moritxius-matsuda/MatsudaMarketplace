@@ -1,3 +1,4 @@
+
 import { Reveal } from "@/components/ui/reveal";
 import { GlassCard } from "@/components/ui/glass-card";
 import { GradientCircle } from "@/components/ui/gradient-circle";
@@ -6,7 +7,7 @@ import { motion } from "framer-motion";
 
 export default function MarketplaceSection() {
   const features = [
-    "Feste, transparente Preise – keine Auktionen",
+    "Von einem erfahrenen Funkamateur (DF5LC) entwickelt",
     "Weltweiter Gratisversand",
     "Starker Käuferschutz: Zahlung erst nach erfolgreicher Lieferung",
     "Einfache Registrierung mit bestehenden Konten"
@@ -16,7 +17,7 @@ export default function MarketplaceSection() {
     {
       title: "Transceiver",
       description: "Hochwertige Geräte für alle Frequenzbereiche",
-      image: "https://www.funkshop.com/thumbnail/cb/6f/2e/1741680694/icom-ic-7610_1f6xozsnmakm5g_600x600.jpg?ts=1741680699"
+      image: "https://www.funkshop.com/thumbnail/cb/6f/2e/1741680694/icom-ic-7610_1f6xozsnmakm5g_600x600.jpg"
     },
     {
       title: "Antennen",
@@ -31,7 +32,7 @@ export default function MarketplaceSection() {
     {
       title: "Spezialitäten",
       description: "Seltene und schwer zu findende Nischenprodukte",
-      image: "https://www.mdr.de/ratgeber/neu-ab/amateurfunk-102_v-variantBig16x9_wm-true_zc-ecbbafc6.jpg?version=35546"
+      image: "https://www.mdr.de/ratgeber/neu-ab/amateurfunk-102_v-variantBig16x9_wm-true_zc-ecbbafc6.jpg"
     }
   ];
 
@@ -43,12 +44,12 @@ export default function MarketplaceSection() {
         <div className="flex flex-col md:flex-row gap-12 items-center">
           <div className="md:w-1/2">
             <Reveal>
-              <div className="inline-block text-sm font-medium text-primary-400 mb-3 px-3 py-1 bg-primary-900/40 rounded-full">MATSUDA MARKETPLACE</div>
+              <div className="inline-block text-sm font-medium text-primary-400 mb-3 px-3 py-1 bg-primary-900/40 rounded-full">DF5LC MARKETPLACE</div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
                 Der globale Marktplatz für Amateurfunk-Equipment
               </h2>
               <p className="text-lg text-gray-300 mb-6">
-                Matsuda Marketplace ist eine globale Online-Plattform für den fairen, transparenten und sicheren Handel mit Amateurfunk-Equipment. Unser Ziel ist es, Funkamateuren weltweit einen zentralen, vertrauenswürdigen Marktplatz zu bieten – unabhängig von Erfahrung oder Spezialisierung.
+                Als erfahrener Funkamateur (DF5LC) aus Trier bringe ich meine langjährige Expertise in diesen Marktplatz ein. Mein Ziel ist es, Funkamateuren weltweit einen zentralen, vertrauenswürdigen Handelsplatz zu bieten.
               </p>
               
               <ul className="space-y-3 mb-8">
@@ -75,7 +76,7 @@ export default function MarketplaceSection() {
               <div className="relative">
                 <img 
                   src="https://www.onlinehaendler-news.de/fileadmin/_processed_/a/c/csm_Depositphotos_171678838_bb_7a959b643d.jpg" 
-                  alt="Person packt neue Funkausrüstung aus" 
+                  alt="Funkausrüstung" 
                   className="rounded-2xl shadow-2xl object-cover h-[500px] w-full"
                 />
                 
