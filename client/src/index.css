@@ -1,0 +1,121 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 240 10% 3.9%;
+    --foreground: 0 0% 98%;
+    --card: 240 10% 3.9%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 10% 3.9%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 266 100% 64%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 240 5% 64.9%;
+    --accent: 240 3.7% 15.9%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 3.7% 15.9%;
+    --input: 240 3.7% 15.9%;
+    --ring: 266 100% 64%;
+    --radius: 0.5rem;
+
+    /* Chart colors */
+    --chart-1: 266 100% 64%;
+    --chart-2: 296 100% 50%;
+    --chart-3: 226 100% 65%;
+    --chart-4: 180 100% 60%;
+    --chart-5: 42 100% 50%;
+
+    /* Sidebar colors (not used, but included for completeness) */
+    --sidebar-background: 240 10% 3.9%;
+    --sidebar-foreground: 0 0% 98%;
+    --sidebar-primary: 266 100% 64%;
+    --sidebar-primary-foreground: 210 40% 98%;
+    --sidebar-accent: 240 3.7% 15.9%;
+    --sidebar-accent-foreground: 0 0% 98%;
+    --sidebar-border: 240 3.7% 15.9%;
+    --sidebar-ring: 266 100% 64%;
+  }
+
+  /* Custom colors */
+  :root {
+    --dark-900: 240 10% 3.9%; /* #121212 */
+    --dark-800: 240 7.7% 13.7%; /* #1E1E1E */
+    --dark-700: 240 5.9% 18%; /* #2D2D2D */
+    --dark-600: 240 4.9% 24.3%; /* #3D3D3D */
+
+    --primary-900: 266 89.5% 34.9%; /* #4C1D95 */
+    --primary-800: 269 79.6% 42.2%; /* #5B21B6 */
+    --primary-700: 269 70% 50.2%; /* #6D28D9 */
+    --primary-600: 268 71.3% 57.8%; /* #7C3AED */
+    --primary-500: 263 69.8% 63.7%; /* #8B5CF6 */
+    --primary-400: 258 90% 66.3%; /* #A78BFA */
+    --primary-300: 262 83.3% 84.9%; /* #C4B5FD */
+    --primary-200: 260 100% 91.8%; /* #DDD6FE */
+    --primary-100: 264 100% 95.9%; /* #EDE9FE */
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-dark-900 text-white font-sans antialiased;
+    font-family: 'Inter', sans-serif;
+  }
+
+  /* Custom scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-dark-800;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-primary-900 rounded-sm;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-primary-700;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-primary-900/10 backdrop-blur-xl border border-primary-500/20 shadow-lg;
+  }
+
+  .gradient-circle {
+    @apply absolute rounded-full bg-gradient-to-r from-primary-600/70 to-primary-600/0 blur-[50px] -z-10;
+  }
+
+  .bg-gradient-purple {
+    @apply bg-gradient-to-r from-primary-900 to-primary-600;
+  }
+
+  .glow-border {
+    @apply shadow-[0_0_15px_rgba(139,92,246,0.5)];
+  }
+}
+
+@layer utilities {
+  .animation-delay-1000 {
+    animation-delay: 1000ms;
+  }
+
+  .animation-delay-2000 {
+    animation-delay: 2000ms;
+  }
+}
