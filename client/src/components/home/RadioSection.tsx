@@ -1,4 +1,3 @@
-
 import { Reveal } from "@/components/ui/reveal";
 import { GlassCard } from "@/components/ui/glass-card";
 import { GradientCircle } from "@/components/ui/gradient-circle";
@@ -9,18 +8,18 @@ export default function RadioSection() {
   const features = [
     {
       icon: <Users className="h-4 w-4" />,
-      title: "Erfahrung seit Kindesalter",
-      description: "Als DF5LC bringe ich jahrelange Erfahrung im Amateurfunk ein."
+      title: "Community-basierte Entwicklung",
+      description: "Entwicklung nach den Wünschen und Bedürfnissen der Nutzer. Ihre Ideen werden Realität."
     },
     {
       icon: <Lightbulb className="h-4 w-4" />,
       title: "Innovative Produkte",
-      description: "Entwicklung von Zubehör und Transceivern mit Fokus auf moderne Technologie."
+      description: "Zunächst Zubehör, später auch eigene Transceiver. Immer mit Fokus auf Funktionalität und Qualität."
     },
     {
       icon: <Zap className="h-4 w-4" />,
-      title: "Netzwerk & Software",
-      description: "Spezialisierung auf die Integration von Netzwerk und Software im Amateurfunk."
+      title: "Hoher Qualitätsanspruch",
+      description: "Moderne Technik und hochwertige Verarbeitung stehen an erster Stelle für eine lange Lebensdauer."
     }
   ];
 
@@ -35,7 +34,7 @@ export default function RadioSection() {
               <div className="relative">
                 <img 
                   src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80" 
-                  alt="Funkausrüstung und Software-Entwicklung" 
+                  alt="Mann bei der Programmierung von Funkgeräten" 
                   className="rounded-2xl shadow-2xl"
                 />
                 
@@ -45,8 +44,8 @@ export default function RadioSection() {
                       <Users className="h-6 w-6" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-semibold">DF5LC aus Trier</h3>
-                      <p className="text-gray-400">Funkamateur & Entwickler</p>
+                      <h3 className="text-xl font-semibold">Community-basierte Entwicklung</h3>
+                      <p className="text-gray-400">Von Funkamateuren für Funkamateure</p>
                     </div>
                   </div>
                 </GlassCard>
@@ -58,10 +57,10 @@ export default function RadioSection() {
             <Reveal>
               <div className="inline-block text-sm font-medium text-primary-400 mb-3 px-3 py-1 bg-primary-900/40 rounded-full">MATSUDA RADIO</div>
               <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                Expertise aus Trier für die Amateurfunk-Community
+                Eigene Funkgeräte und Zubehör mit der Community entwickeln
               </h2>
               <p className="text-lg text-gray-300 mb-6">
-                Als Funkamateur mit dem Rufzeichen DF5LC entwickle ich seit Jahren innovative Lösungen für die Amateurfunk-Community. Meine Leidenschaft für Funk, Netzwerk und Software begann bereits im Kindesalter und prägt heute meine Entwicklungen.
+                Matsuda Radio ist die Vision, eigene Funkgeräte und Zubehör zu entwickeln – mit und für die Amateurfunk-Community. Im Mittelpunkt stehen Qualität, innovative Features und ein attraktives Preis-Leistungs-Verhältnis.
               </p>
               
               <div className="space-y-6 mb-8">
