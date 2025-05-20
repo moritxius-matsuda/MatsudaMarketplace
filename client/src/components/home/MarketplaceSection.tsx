@@ -74,7 +74,7 @@ export default function MarketplaceSection() {
             <Reveal direction="right">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1621319332451-55b4b8ac9cf1?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" 
+                  src="https://www.onlinehaendler-news.de/fileadmin/_processed_/a/c/csm_Depositphotos_171678838_bb_7a959b643d.jpg" 
                   alt="Person packt neue Funkausrüstung aus" 
                   className="rounded-2xl shadow-2xl object-cover h-[500px] w-full"
                 />

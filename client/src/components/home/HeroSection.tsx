@@ -47,7 +47,7 @@ export default function HeroSection() {
               <div className="rounded-2xl shadow-2xl overflow-hidden">
                 <div className="aspect-[4/3] bg-gradient-to-r from-primary-900/60 to-transparent rounded-2xl relative">
                   <img 
-                    src="https://images.unsplash.com/photo-1543269664-7eef42226a21?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                    src="https://i.ebayimg.com/00/s/MTA2NlgxNjAw/z/jEEAAOSwmj9n-SrJ/$_57.PNG?set_id=880000500F" 
                     alt="Modern amateur radio equipment" 
                     className="w-full h-full object-cover mix-blend-overlay rounded-2xl"
                   />
