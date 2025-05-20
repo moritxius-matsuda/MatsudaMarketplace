@@ -10,42 +10,37 @@ export default function Versand() {
   const shippingPartners = [
     {
       name: "DHL",
-      logo: "https://logodownload.org/wp-content/uploads/2018/02/dhl-logo-1.png",
+      logo: "https://i.pinimg.com/736x/32/e2/98/32e2981c72d0dce77ad6dd0096929a28.jpg",
       description: "Standard-Lieferung innerhalb Deutschlands und weltweit"
     },
     {
       name: "FedEx",
-      logo: "https://logodownload.org/wp-content/uploads/2017/07/fedex-logo-1.png",
+      logo: "https://www.designenlassen.de/blog/wp-content/uploads/2024/02/FedEx-logo-700x394-1.jpg",
       description: "Express-Lieferung international"
     },
     {
       name: "UPS",
-      logo: "https://logodownload.org/wp-content/uploads/2016/09/ups-logo-1-1.png",
+      logo: "https://about.ups.com/content/dam/upsstories/images/logo/ups-logo-wo-text.svg",
       description: "Schnelle und zuverlässige weltweite Lieferung"
     },
     {
-      name: "TNT",
-      logo: "https://1000logos.net/wp-content/uploads/2018/01/TNT-Logo.png",
-      description: "Express-Service für internationale Sendungen"
-    },
-    {
       name: "GLS",
-      logo: "https://logoeps.com/wp-content/uploads/2012/10/gls-vector-logo.png",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/GLS_Logo_2021.svg/2560px-GLS_Logo_2021.svg.png",
       description: "Zuverlässige Lieferung in ganz Europa"
     },
     {
       name: "Hermes",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Hermes_logo.svg/1280px-Hermes_logo.svg.png",
+      logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZSSkWfdvU_uvfHOJzuVEO8mJr2-q6pLg2fA&s",
       description: "Kostengünstige Lieferung in Deutschland und Europa"
     },
     {
       name: "DPD",
-      logo: "https://logodownload.org/wp-content/uploads/2019/01/dpd-logo-0.png",
+      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/DPD_logo_%282015%29.svg/2560px-DPD_logo_%282015%29.svg.png",
       description: "Paketzustellung in ganz Europa"
     },
     {
       name: "US Postal Service",
-      logo: "https://logodownload.org/wp-content/uploads/2022/05/usps-logo-0-1.png",
+      logo: "https://images.ctfassets.net/l7hyhixwl1s2/3xltoEX3xoMtuaT4URrHk5/0574527fe313c24a41dda8b68b3ec769/usps-servicio-postal-de-los-estados-unidos.jpg?w=640&h=427&fl=progressive&q=50&fm=jpg",
       description: "Lieferung in die USA und von USA-Standorten aus"
     }
   ];
