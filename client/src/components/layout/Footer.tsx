@@ -70,13 +70,17 @@ export default function Footer() {
               <li><a href="#" className="hover:text-primary-400 transition-colors duration-300">Community</a></li>
               <li><a href="#" className="hover:text-primary-400 transition-colors duration-300">Produktentwicklung</a></li>
               <li><a href="#" className="hover:text-primary-400 transition-colors duration-300">Roadmap</a></li>
-              <li><a href="#" className="hover:text-primary-400 transition-colors duration-300">Kontakt</a></li>
+              <li><a href="#contact" className="hover:text-primary-400 transition-colors duration-300">Kontakt</a></li>
             </ul>
           </div>
         </div>
         
         <div className="mt-12 pt-8 border-t border-dark-600 text-center text-gray-500 text-sm">
-          <p>© {new Date().getFullYear()} Matsuda-Projekt. Alle Rechte vorbehalten. Dieses Projekt befindet sich in der Entwicklung.</p>
+          <p className="mb-4">© {new Date().getFullYear()} Matsuda-Projekt. Alle Rechte vorbehalten. Dieses Projekt befindet sich in der Entwicklung.</p>
+          <div className="flex justify-center space-x-6">
+            <Link href="/impressum" className="text-gray-400 hover:text-primary-400 transition-colors duration-300">Impressum</Link>
+            <Link href="/datenschutz" className="text-gray-400 hover:text-primary-400 transition-colors duration-300">Datenschutzerklärung</Link>
+          </div>
         </div>
       </div>
     </footer>

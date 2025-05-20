@@ -10,6 +10,8 @@ import TimelineSection from "@/components/home/TimelineSection";
 import ContactSection from "@/components/home/ContactSection";
 import { useSmoothScroll } from "@/hooks/use-smooth-scroll";
 import NotFound from "@/pages/not-found";
+import Impressum from "@/pages/Impressum";
+import Datenschutz from "@/pages/Datenschutz";
 
 function HomePage() {
   useSmoothScroll();
@@ -43,6 +45,8 @@ function App() {
   return (
     <Switch>
       <Route path="/" component={HomePage} />
+      <Route path="/impressum" component={Impressum} />
+      <Route path="/datenschutz" component={Datenschutz} />
       <Route component={NotFound} />
     </Switch>
   );
