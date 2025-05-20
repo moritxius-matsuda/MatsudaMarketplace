@@ -33,8 +33,8 @@ export default function RadioSection() {
             <Reveal direction="left">
               <div className="relative">
                 <img 
-                  src="https://images.unsplash.com/photo-1597951770877-0f31b337f5ce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80" 
-                  alt="Electronics workbench with radio equipment" 
+                  src="https://images.unsplash.com/photo-1580927752452-89d86da3fa0a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600&q=80" 
+                  alt="Mann bei der Programmierung von Funkgeräten" 
                   className="rounded-2xl shadow-2xl"
                 />
                 

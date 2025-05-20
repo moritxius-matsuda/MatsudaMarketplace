@@ -16,22 +16,22 @@ export default function MarketplaceSection() {
     {
       title: "Transceiver",
       description: "Hochwertige Geräte für alle Frequenzbereiche",
-      image: "https://www.funkshop.com/thumbnail/23/e2/97/1741680684/yaesu-ft991ajbqsf0u3woovu_600x600.jpg?ts=1741680687"
+      image: "https://www.funkshop.com/thumbnail/cb/6f/2e/1741680694/icom-ic-7610_1f6xozsnmakm5g_600x600.jpg?ts=1741680699"
     },
     {
       title: "Antennen",
       description: "Verschiedene Antennen für optimale Signalübertragung",
-      image: "https://images.unsplash.com/photo-1624948465027-6f9937674437?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500&q=80"
+      image: "https://ae01.alicdn.com/kf/H82041e8cdf1a439880f8549a5f5b624aN.jpg"
     },
     {
       title: "Zubehör",
       description: "Wichtiges Zubehör für Ihre Funkausrüstung",
-      image: "https://images.unsplash.com/photo-1603732551746-47218024aee2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500&q=80"
+      image: "https://m.media-amazon.com/images/I/614limDEAlL._AC_UF1000,1000_QL80_.jpg"
     },
     {
       title: "Spezialitäten",
       description: "Seltene und schwer zu findende Nischenprodukte",
-      image: "https://images.unsplash.com/photo-1629228735562-9de2e1975ae3?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500&q=80"
+      image: "https://www.mdr.de/ratgeber/neu-ab/amateurfunk-102_v-variantBig16x9_wm-true_zc-ecbbafc6.jpg?version=35546"
     }
   ];
 
