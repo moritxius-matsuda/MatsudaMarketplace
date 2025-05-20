@@ -64,9 +64,9 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4">Matsuda Radio</h4>
             <ul className="space-y-2 text-gray-400">
-              <li><a href="#radio" className="hover:text-primary-400 transition-colors duration-300">Radio</a></li>
-              <li><a href="#marketplace" className="hover:text-primary-400 transition-colors duration-300">Marketplace</a></li>
-              <li><a href="#contact" className="hover:text-primary-400 transition-colors duration-300">Kontakt</a></li>
+              <li><Link href="/radio" className="hover:text-primary-400 transition-colors duration-300">Radio</Link></li>
+              <li><Link href="/marketplace" className="hover:text-primary-400 transition-colors duration-300">Marketplace</Link></li>
+              <li><Link href="/contact" className="hover:text-primary-400 transition-colors duration-300">Kontakt</Link></li>
             </ul>
           </div>
         </div>
