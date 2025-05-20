@@ -77,7 +77,9 @@ export default function Footer() {
         
         <div className="mt-12 pt-8 border-t border-dark-600 text-center text-gray-500 text-sm">
           <p className="mb-4">© {new Date().getFullYear()} Matsuda-Projekt. Alle Rechte vorbehalten. Dieses Projekt befindet sich in der Entwicklung.</p>
-          <div className="flex justify-center space-x-6">
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
+            <Link href="/faq" className="text-gray-400 hover:text-primary-400 transition-colors duration-300">FAQ</Link>
+            <Link href="/versand" className="text-gray-400 hover:text-primary-400 transition-colors duration-300">Versand & Zahlung</Link>
             <Link href="/impressum" className="text-gray-400 hover:text-primary-400 transition-colors duration-300">Impressum</Link>
             <Link href="/datenschutz" className="text-gray-400 hover:text-primary-400 transition-colors duration-300">Datenschutzerklärung</Link>
           </div>

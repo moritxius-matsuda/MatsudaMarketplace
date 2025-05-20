@@ -12,6 +12,8 @@ import { useSmoothScroll } from "@/hooks/use-smooth-scroll";
 import NotFound from "@/pages/not-found";
 import Impressum from "@/pages/Impressum";
 import Datenschutz from "@/pages/Datenschutz";
+import FAQ from "@/pages/FAQ";
+import Versand from "@/pages/Versand";
 
 function HomePage() {
   useSmoothScroll();
@@ -47,6 +49,8 @@ function App() {
       <Route path="/" component={HomePage} />
       <Route path="/impressum" component={Impressum} />
       <Route path="/datenschutz" component={Datenschutz} />
+      <Route path="/faq" component={FAQ} />
+      <Route path="/versand" component={Versand} />
       <Route component={NotFound} />
     </Switch>
   );

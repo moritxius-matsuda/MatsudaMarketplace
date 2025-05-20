@@ -16,7 +16,7 @@ export default function MarketplaceSection() {
     {
       title: "Transceiver",
       description: "Hochwertige Geräte für alle Frequenzbereiche",
-      image: "https://images.unsplash.com/photo-1582124074187-15cea8589bfa?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=500&q=80"
+      image: "https://www.funkshop.com/thumbnail/23/e2/97/1741680684/yaesu-ft991ajbqsf0u3woovu_600x600.jpg?ts=1741680687"
     },
     {
       title: "Antennen",
